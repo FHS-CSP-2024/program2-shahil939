@@ -31,12 +31,7 @@
 #
 # Multiple Input
 #name = input("What is your name? ")
-#email = input("What is your email address? ")
-#nickname = input("What is your nickname? ")
-#print("Let's make sure we got this right")
-#print("Your name: " + name)
-#print("Your email address: " + email)
-#print("Your nickname: " + nickname)
+#name = input("What is your name? ")
 #
 # Overriding Input
 #name = input("What is your name? ")
@@ -49,8 +44,9 @@
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
-
-
+name = input("What is your name? ")
+print(name)
+print(name)
 
 
 
@@ -59,7 +55,8 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
-
+name = input("What is your name? ")
+name ("!"+name+"!"+name+"!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -70,12 +67,22 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
-
+firstname = input("Tell me your name first name ")
+lastname = input("Tell me your last name ")
+adress = input("what is your street adress: ")
+city=input("what us your city and postal code: ")
+print("first name: "+firstname)
+print("last name:"+lastname)
+print("street adress: "+ adress)
+print("city and postal code: "+city)
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
-
+one= input("Give me one word: ")
+two= input("give me another word ")
+three= input("Give me the last word")
+print( one+"-"two+"+three)
 
 ## Problem 5 ##
 #Please write a script that: 
